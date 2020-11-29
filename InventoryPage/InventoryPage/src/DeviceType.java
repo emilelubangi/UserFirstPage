@@ -8,12 +8,12 @@
  *
  * @author Dinana
  */
-public class FurnitureType extends javax.swing.JFrame {
+public class DeviceType extends javax.swing.JFrame {
 
     /**
      * Creates new form
      */
-    public FurnitureType() {
+    public DeviceType() {
         initComponents();
     }
 
@@ -201,8 +201,8 @@ public class FurnitureType extends javax.swing.JFrame {
                                     .addComponent(jLabel5)
                                     .addComponent(jLabel6)))))
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(58, 58, 58)
-                        .addComponent(jLabel45, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(52, 52, 52)
+                        .addComponent(jLabel45)
                         .addGap(18, 18, 18)
                         .addComponent(jLabel9)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -279,7 +279,7 @@ public class FurnitureType extends javax.swing.JFrame {
         );
 
         jLabel51.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jLabel51.setText("Furniture");
+        jLabel51.setText("Device");
 
         jLabel15.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel15.setText("Hey, User!");
@@ -305,7 +305,7 @@ public class FurnitureType extends javax.swing.JFrame {
                 {null, null, null, null}
             },
             new String [] {
-                "FurnitureID", "Description", "Size", "Color"
+                "DeviceID", "Description", "Size", "Color"
             }
         ) {
             Class[] types = new Class [] {
@@ -524,21 +524,20 @@ public class FurnitureType extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(FurnitureType.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(DeviceType.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(FurnitureType.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(DeviceType.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(FurnitureType.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(DeviceType.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(FurnitureType.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(DeviceType.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new FurnitureType().setVisible(true);
+                new DeviceType().setVisible(true);
             }
         });
     }
